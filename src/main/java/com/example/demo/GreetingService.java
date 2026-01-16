@@ -11,4 +11,8 @@ public class GreetingService {
         }
         return "Hello, " + name + "!";
     }
+
+    public String setGreeting(String name){
+        return name;
+    }
 }
