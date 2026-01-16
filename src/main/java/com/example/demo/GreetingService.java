@@ -15,4 +15,8 @@ public class GreetingService {
     public String setGreeting(String name){
         return name;
     }
+
+    public String sayHi(){
+        return "testing version";
+    }
 }
