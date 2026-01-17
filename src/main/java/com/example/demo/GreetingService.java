@@ -19,4 +19,8 @@ public class GreetingService {
     public String sayHi(){
         return "testing version";
     }
+
+    public String sayHello(){
+        return "Hello, World!";
+    }
 }
